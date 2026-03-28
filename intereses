@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intereses Personales | Mariela Cruz</title>
+    <link rel="stylesheet" href="style_intereses.css">
+</head>
+<body>
+
+    <main class="contenedor-intereses">
+        <h1 class="titulo-intereses">INTERESES PERSONALES</h1>
+
+        <section class="lista-intereses">
+            <p class="introduccion">Más allá del diseño, estas son las actividades y expresiones que llenan mi día a día:</p>
+            <ul>
+                <li><strong>Poesía y Escritura:</strong> Mi forma favorita de procesar sentimientos y pensamientos profundos.</li>
+                <li><strong>Baile:</strong> Una disciplina que me permite conectar el movimiento con la emoción.</li>
+                <li><strong>Repostería y Cocina:</strong> El arte de crear sabores y texturas desde cero.</li>
+                <li><strong>Naturaleza:</strong> Disfruto de los climas fríos y los paisajes llenos de árboles.</li>
+                <li><strong>Pintura y Fotografía:</strong> Explorar la luz y el color en diferentes lienzos.</li>
+            </ul>
+        </section>
+
+        <section class="recurso-multimedia">
+            <h3>Mi artista favorito se llama HUMBE y esta es mi:</h3>
+           <a href="https://www.youtube.com/watch?v=GL3uWpJineM&list=RDGL3uWpJineM&start_radio=1" target="_blank" class="enlace-hobby">CANCIÓN FAVORITA→</a> 
+        </section>
+
+        <section class="enlaces-externos">
+            <p>Conoce más sobre uno de mis pasatiempos favoritos:</p>
+            <a href="https://www.youtube.com/watch?v=VK2B1wXZGAo" target="_blank" class="enlace-hobby">ORIGEN DEL BAILE  →</a>
+        </section>
+
+        <nav class="navegacion-retorno">
+            <a href="file:///C:/Users/marie/OneDrive/Escritorio/WED_P2/index.html" class="boton-volver">Ir a la Página Principal</a>
+        </nav>
+    </main>
+
+</body>
+</html>
