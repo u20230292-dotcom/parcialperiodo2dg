@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&family=Lora:ital@1&display=swap');
+
+body {
+    background-color: #c9e5d0;
+    font-family: 'Quicksand', sans-serif;
+    color: #00442a;
+    margin: 0;
+    padding: 50px 20px;
+}
+
+.contenedor-intereses {
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.559);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.05);
+    border: 1px solid #f0f0f0;
+}
+
+.titulo-intereses {
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    color: #2d4a3e; 
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 15px;
+}
+
+.lista-intereses ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-intereses li {
+    background: #f8fbf9;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 4px solid #ffffff00;
+    border-radius: 0 8px 8px 0;
+    font-size: 1.1rem;
+    transition: transform 0.2s;
+}
+
+.lista-intereses li:hover {
+    transform: translateX(10px);
+    background: #f1f5f2;
+}
+
+.introduccion {
+    font-style: italic;
+    color: #003613;
+    margin-bottom: 25px;
+}
+
+.recurso-multimedia h3 {
+    margin-top: 40px;
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+.enlace-hobby {
+    display: inline-block;
+    color: #2d4a3e;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 5px 0;
+    border-bottom: 2px transparent solid;
+    transition: border-color 0.3s;
+}
+
+.enlace-hobby:hover {
+    border-bottom: 2px solid #2d4a3e;
+}
+
+.navegacion-retorno {
+    margin-top: 50px;
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding-top: 30px;
+}
+
+.boton-volver {
+    text-decoration: none;
+    background-color: #2d4a3e;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.boton-volver:hover {
+    background-color: #90bda9;
+    box-shadow: 0 5px 15px rgb(0, 65, 27);
+}

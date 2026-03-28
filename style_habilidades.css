@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
+body {
+    background-color: #beddbe; 
+    font-family: 'Montserrat', sans-serif;
+    color: #496735;
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    color: #325c39; 
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #496735;
+    display: inline-block;
+    padding-bottom: 10px;
+    
+}
+
+.tabla-diseno {
+    width: 100%;
+     border-radius: 20px;
+    border-collapse: separate;
+    border-spacing: 0 15px; 
+    margin-top: 20px;
+     border-radius: 20px;
+   
+}
+
+th {
+    padding: 15px;
+    text-align: left;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    
+}
+
+td {
+    background-color: #ffffff5f;
+    padding: 20px;
+    border: 1px solid #ffffff3a;
+    
+}
+
+.habilidad-resaltada {
+    font-weight: 600;
+    color: #2d4a3e;
+    border-left: 5px solid #ffffff00 !important; 
+    background-color: #ffffff74; 
+    font-size: 1.1rem;
+}
+
+td:nth-child(2) {
+    font-size: 0.95rem;
+    color: #202c21;
+}
+
+td:nth-child(3) {
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+.navegacion {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.enlace-home {
+    text-decoration: none;
+    color: #2d4a3e;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: 1px solid #2d4a3e;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.enlace-home:hover {
+    background-color: #ffffff74;
+    color: #213121;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
