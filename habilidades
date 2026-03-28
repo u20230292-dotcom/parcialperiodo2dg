@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilidades Profesionales | Mariela Cruz</title>
+    <link rel="stylesheet" href="style_habilidades.css">
+</head>
+<body>
+
+    <main class="contenedor">
+        <h1 class="titulo-principal">Habilidades de diseño gráfico</h1>
+
+        <table class="tabla-diseno";>
+        
+            <thead>
+                <tr>
+                    <th>Habilidad</th>
+                    <th>Descripción de Experiencia</th>
+                    <th>Nivel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="habilidad-resaltada">Identidad Visual</td>
+                    <td>Desarrollo de manuales de marca, logotipos y sistemas visuales basados en conceptos orgánicos y minimalistas.</td>
+                    <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td class="habilidad-resaltada">Diseño Editorial</td>
+                    <td>Maquetación de portafolios y documentos técnicos con un enfoque detallado en la legibilidad y jerarquía visual.</td>
+                    <td>Experto</td>
+                </tr>
+                <tr>
+                    <td class="habilidad-resaltada">Señalética</td>
+                    <td>Creación de fichas técnicas y sistemas de orientación para espacios públicos y clínicas.</td>
+                    <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td class="habilidad-resaltada">Diseño Web (HTML/CSS)</td>
+                    <td>Estructuración y personalización de sitios personales utilizando código limpio y adaptable.</td>
+                    <td>Basico</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="navegacion">
+            <a href="file:///C:/Users/marie/OneDrive/Escritorio/WED_P2/index.html" class="enlace-home">← Volver a la página principal</a>
+        </div>
+    </main>
+
+</body>
+</html>
